@@ -1,0 +1,50 @@
+/*-- LAYOUT --*/
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Makes container holding the content flex -> everything can be in one line */
+.container {
+    display: flex;
+    padding-top: 1em;
+    gap: 10px;
+}
+
+/* Makes the outline of the text field blue on click */
+input[type="text"] {
+    outline-color: #98C4F0;
+}
+
+/* Indents unordered list */
+ul {
+    margin: 0 2.5em;
+}
+
+/* Adds space between list items */
+ul > li {
+    padding: 5px 0;
+}
+
+/*-- BUTTONS --*/
+/* Styling for all buttons */
+input[type="button"],
+#deleteButton {
+    padding: 0 1.5em; 
+    background-color: #F8F9FA;
+    border: 1px solid #C5C5C5;
+    box-shadow: 1px 1px 1px #E8E7E7;
+    border-radius: 3px;
+    font-family: 'Arial', sans-serif;
+}
+
+#deleteButton {
+    margin-left: 3em;
+    font-size: 10px;
+}
+
+/*-- TEXT --*/
+h1 {
+    font-weight: bold;
+}
